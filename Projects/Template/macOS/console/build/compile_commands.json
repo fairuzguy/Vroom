@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/build",
+  "command": "/usr/bin/clang++ -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include  -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp",
+  "file": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ -O2 -s USE_SDL=2 -s USE_WEBGL2=1 @CMakeFiles/Template.dir/objects1.rsp -o ../out/Template.js 
