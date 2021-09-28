@@ -129,6 +129,102 @@ Template/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/build
 .PHONY : Template/fast
 
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s
+
 Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o
 
@@ -153,6 +249,54 @@ Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s
 
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Template"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.s"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.s"
 .PHONY : help
 
 

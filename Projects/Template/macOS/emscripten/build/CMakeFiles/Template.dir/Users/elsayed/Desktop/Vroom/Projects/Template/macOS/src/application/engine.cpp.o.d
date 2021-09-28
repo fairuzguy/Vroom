@@ -1,5 +1,5 @@
-CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o: \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp \
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o: \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/string \
@@ -90,7 +90,12 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/wctype.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/wctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.hpp \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.hpp \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../platform/graphics-wrapper.hpp \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/GLES2/gl2.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/GLES2/gl2platform.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/KHR/khrplatform.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../platform/sdl-wrapper.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_main.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_stdinc.h \
@@ -138,4 +143,24 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_shape.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_system.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_timer.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_version.h
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_version.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../debug/debug.hpp \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/iostream \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/ios \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__locale \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/mutex \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__mutex_base \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/system_error \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__errc \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cerrno \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/locale.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/locale.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/xlocale.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/streambuf \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/istream \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/ostream \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/locale \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cstdarg \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__bsd_locale_fallbacks.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/bitset \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__bit_reference

@@ -1,4 +1,9 @@
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+#endif
+
 #include "sdl-wrapper.hpp"
+#include "platform.hpp"
 
 namespace vrm {
     bool ShouldDisplayFullscreen() {

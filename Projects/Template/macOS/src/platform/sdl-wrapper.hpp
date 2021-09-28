@@ -2,7 +2,6 @@
 
 #include <SDL.h>
 #include <utility>
-#include "platform.hpp"
 
 namespace vrm {
     bool ShouldDisplayFullscreen();

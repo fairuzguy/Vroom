@@ -12,7 +12,7 @@ namespace vrm {
         int viewportHeight;
         SDL_GL_GetDrawableSize(window, &viewportWidth, &viewportHeight);
         print("Created OpenGL context with viewport size " + std::to_string(viewportWidth) + " x " + std::to_string(viewportHeight) + ".");
-        glClearDepth(1.0f);
+        glClearDepthf(1.0f);
         glEnable(GL_DEPTH_TEST);
         glDepthFunc(GL_LEQUAL);
         glEnable(GL_CULL_FACE);
