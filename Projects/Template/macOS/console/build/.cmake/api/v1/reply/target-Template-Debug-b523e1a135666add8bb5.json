@@ -55,7 +55,13 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				3
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -90,19 +96,49 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				3
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.hpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/graphics-wrapper.hpp",
@@ -121,7 +157,43 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

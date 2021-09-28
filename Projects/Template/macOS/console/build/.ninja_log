@@ -1,15 +1,12 @@
 # ninja log v5
-445	3858	1632544157747772736	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-3858	4348	1632544158246854560	../out/Template	d3467b26c09f3c45
-6	2282	1632606169898928503	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-2283	3250	1632606170877721578	../out/Template	d3467b26c09f3c45
-5	1864	1632606556636937397	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-1864	2541	1632606557400956905	../out/Template	d3467b26c09f3c45
-376	3518	1632608819520964707	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-3518	4202	1632608820232468843	../out/Template	d3467b26c09f3c45
-9	1295	1632609300185346419	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-1295	1750	1632609300650683224	../out/Template	d3467b26c09f3c45
-19	3079	1632610641699903817	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
-3080	3853	1632610642560926204	../out/Template	d3467b26c09f3c45
-9	4186	1632631678821398652	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
+80	499	1632792470698095944	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o	f1ab65428dc3e28c
+83	2923	1632792473129025110	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o	4d62bb5144a548a9
+78	2926	1632792473111950082	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	bae06509908e43c5
+76	3972	1632792474216732105	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o	685d7ae65b4ea01f
 4186	4883	1632631679533607632	../out/Template	d3467b26c09f3c45
+77	3914	1632792474163990226	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o	9af53e47a855c1f1
+76	2924	1632792473127464030	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o	9eda164e013b28c8
+44	2559	1632792586190540592	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o	e67ef606a2a3b2a2
+43	2601	1632792586229347434	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o	685d7ae65b4ea01f
+44	2674	1632792586308235386	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o	9af53e47a855c1f1
+2674	2974	1632792586618084596	../out/Template	c274de170872c976
