@@ -13,6 +13,8 @@ namespace vrm {
     private:
         const GLuint shaderProgramId;
         const GLuint uniformLocationMVP;
+        const GLuint uniformLocationCounter;
+        const GLuint uniformLocationiResolution;
         const GLuint attributeLocationVertexPosition;
     };
 }

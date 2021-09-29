@@ -1,5 +1,6 @@
 #include "opengl-pipeline.hpp"
 #include "../platform/assets.hpp"
+#include "../platform/sdl-wrapper.hpp"
 #include "../debug/debug.hpp"
 #include <stdexcept>
 #include <vector>
@@ -94,16 +95,21 @@ namespace vrm {
         return bufferId;
     }
 
+    // Render data
     const std::vector<glm::vec3> screenSurfaceVertices = {
         glm::vec3(-1.0f, -1.0f, 0.0f),
         glm::vec3(-1.0f, 3.0f, 0.0f),
         glm::vec3(3.0f, -1.0f, 0.0f)
     };
     const std::vector<uint32_t> screenSurfaceIndices = {2, 1, 0};
+    const float START_TIME = SDL_GetPerformanceCounter();
+    GLfloat previousTick = 0;
 
     OpenGLPipeline::OpenGLPipeline(const std::string& shaderName) : 
         shaderProgramId(CreateShaderProgram(shaderName)),
         uniformLocationMVP(glGetUniformLocation(shaderProgramId, "mvp")),
+        uniformLocationCounter(glGetUniformLocation(shaderProgramId, "counter")),
+        uniformLocationiResolution(glGetUniformLocation(shaderProgramId, "iResolution")),
         attributeLocationVertexPosition(glGetAttribLocation(shaderProgramId, "vertexPosition")) {
         glUseProgram(shaderProgramId);
         const GLuint screenSurfaceVertexBufferId = CreateVertexBuffer(screenSurfaceVertices);
@@ -114,6 +120,17 @@ namespace vrm {
 
     void OpenGLPipeline::Render(const glm::mat4& mvp) const {
         glUniformMatrix4fv(uniformLocationMVP, 1, GL_FALSE, &mvp[0][0]);
+        GLfloat counter = (SDL_GetTicks())/1000.0;
+        glUniform1fv(uniformLocationCounter, 1, &counter);
+        GLfloat dt = counter - previousTick;
+        previousTick = counter;
+        GLfloat iResolution[2] = {
+            static_cast<GLfloat>(GetDisplaySize().first),
+            static_cast<GLfloat>(GetDisplaySize().second)
+        };
+        glUniform2fv(uniformLocationiResolution, 1, iResolution);
+        glViewport(0, 0, static_cast<GLsizei>(iResolution[0]), static_cast<GLsizei>(iResolution[1]));
+
         glEnableVertexAttribArray(attributeLocationVertexPosition);
         glVertexAttribPointer(attributeLocationVertexPosition, 3, GL_FLOAT, GL_FALSE, 0, (void*)0);
         glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void*)0);

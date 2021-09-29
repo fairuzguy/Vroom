@@ -19,3 +19,7 @@
 15335	16223	1632878635540468157	../out/Template	6d9373ba9195aa42
 1041	12366	1632879434539698993	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o	2c18fbd32fb3e36
 12432	13404	1632879435666298851	../out/Template	6d9373ba9195aa42
+784	14405	1632880888365951447	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o	dc590fe8ed659b73
+785	14568	1632880888472246163	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o	2c18fbd32fb3e36
+785	14570	1632880888384149816	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o	bb8329ed31f8ba50
+14570	16164	1632880890363227476	../out/Template	6d9373ba9195aa42
