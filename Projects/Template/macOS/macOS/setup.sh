@@ -6,8 +6,9 @@ source ../shared-scripts.sh
 fetch_brew_dependency "wget"
 fetch_brew_dependency "xcodegen"
 
-# Downloading SDL2
+# Downloading third party libs
 fetch_third_party_lib_sdl
+fetch_third_party_lib_glm
 
 # Framework for macOS
 fetch_framework_sdl2
@@ -16,6 +17,12 @@ fetch_framework_sdl2
 if [ ! -d "Source" ]; then
 	echo "Linking 'Source' path to '../src'"
 	ln -s ../src Source
+fi
+
+# Symlinking to assets folder
+if [ ! -d "assets" ]; then
+    echo "Linking 'assets' path to '../assets'"
+    ln -s ../assets assets
 fi
 
 # Using xcodegen to make the xcode project for us (really helps with lag on old machines too)

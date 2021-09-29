@@ -75,3 +75,16 @@ function verify_build_folder_exists() {
 		mkdir build
 	fi
 }
+
+# GLM library for all the fancy math
+function fetch_third_party_lib_glm() {
+	verify_third_party_folder_exists
+	pushd ../third-party
+		if [ ! -d "glm" ]; then
+			echo "Fetching GLM from: https://github.com/g-truc/glm/releases/download/0.9.9.3/glm-0.9.9.3.zip"
+			wget https://github.com/g-truc/glm/releases/download/0.9.9.3/glm-0.9.9.3.zip
+			unzip -q glm-0.9.9.3.zip
+			rm glm-0.9.9.3.zip
+		fi
+	popd
+}

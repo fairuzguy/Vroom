@@ -1,1 +1,1 @@
--I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include
+-I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm

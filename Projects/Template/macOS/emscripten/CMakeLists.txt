@@ -8,7 +8,7 @@ set(MAIN_SOURCE_DIR "../src")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/out)
 
 include_directories(${THIRD_PARTY_DIR}/SDL/include)
-
+include_directories(${THIRD_PARTY_DIR}/glm)
 file(GLOB_RECURSE CPP_HEADERS ${MAIN_SOURCE_DIR}/*.hpp)
 file(GLOB_RECURSE CPP_SOURCES ${MAIN_SOURCE_DIR}/*.cpp)
 
@@ -22,7 +22,7 @@ set_target_properties(
 	Template
 	PROPERTIES
 	LINK_FLAGS
-	"-O2 -s USE_SDL=2 -s USE_WEBGL2=1"
+	"-O2 -s USE_SDL=2 -s USE_WEBGL2=1 --preload-file ../../assets@/assets"
 )
 
 add_custom_command(

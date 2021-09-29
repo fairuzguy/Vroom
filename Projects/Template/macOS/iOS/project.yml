@@ -33,8 +33,13 @@ targets:
     sources:
       - Source
       - LaunchScreen.storyboard
+      - path: assets
+        type: folder
+        buildPhase: resources
     settings:
-      HEADER_SEARCH_PATHS: $(PROJECT_DIR)/../third-party/SDL/include
+      HEADER_SEARCH_PATHS: 
+        - $(PROJECT_DIR)/../third-party/SDL/include
+        - $(PROJECT_DIR)/../third-party/glm
       LIBRARY_SEARCH_PATHS:
         - $(inherited)
         - $(PROJECT_DIR)

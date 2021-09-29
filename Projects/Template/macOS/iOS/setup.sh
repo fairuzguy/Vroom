@@ -8,6 +8,7 @@ fetch_brew_dependency "xcodegen"
 
 # Downloading third-party libs
 fetch_third_party_lib_sdl
+fetch_third_party_lib_glm
 
 # Compiling static library from Xcode; this is necessary since iOS only allows for static libs
 function create_static_library() {
@@ -71,6 +72,11 @@ create_static_library libSDL2.a ../../third-party/SDL/Xcode-iOS/SDL SDL.xcodepro
 if [ ! -d "Source" ]; then
 	echo "Linking 'Source' path to '../src'"
 	ln -s ../src Source
+fi
+
+if [ ! -d "assets" ]; then
+    echo "Linking 'assets' path to '../assets'"
+    ln -s ../assets assets
 fi
 
 echo "Generating Xcode project"

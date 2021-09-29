@@ -225,6 +225,54 @@ Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.s
 
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.s
+
 Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o
 
@@ -248,6 +296,30 @@ Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.s: Users/elsayed/De
 Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.s
 
 Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o
@@ -318,9 +390,18 @@ help:
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.s"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.s"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.s"

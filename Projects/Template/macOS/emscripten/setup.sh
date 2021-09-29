@@ -8,6 +8,7 @@ fetch_brew_dependency "cmake"
 
 # Third party libs
 fetch_third_party_lib_sdl
+fetch_third_party_lib_glm
 
 # Downloading the emscripten SDK
 pushd ../third-party
