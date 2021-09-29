@@ -13,13 +13,18 @@ const int MAX_STEPS = 100;
 const float SHADOW_SURF = 0.02;
 const float SOFT_SHADOW_DIST = 0.2;
 const int AO_MAX_STEPS = 5;
+const float PI = 3.14159;
 
 // Forward declarations for functions
 
 void main() {
     // Derived values
     vec2 uv = (gl_FragCoord.xy - iResolution.xy*0.5)/iResolution.y;
-    vec3 color = vec3(sin(uv.x*counter), cos(uv.y/counter), tan(uv.x/uv.y + counter));
+    vec3 color = vec3(
+        0.5 + 0.5*sin(uv.x + counter), 
+        0.5 + 0.5*sin(uv.y + counter + 2.0*PI/3.0), 
+        0.5 + 0.5*sin(uv.x + uv.y + counter + 4.0*PI/3.0)
+    );
 
-    gl_FragColor = vec4(color, 0.0);
+    gl_FragColor = vec4(color, 1.0);
 }
