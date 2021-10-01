@@ -402,6 +402,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/../mat4x3.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/../mat4x4.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/hash.inl \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../graphics/../platform/sdl-wrapper.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../graphics/camera.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/../debug/debug.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/iostream \

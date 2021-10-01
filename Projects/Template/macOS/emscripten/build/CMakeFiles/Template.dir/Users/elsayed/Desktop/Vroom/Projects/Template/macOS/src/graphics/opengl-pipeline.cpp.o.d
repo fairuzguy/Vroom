@@ -331,25 +331,6 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/../mat4x3.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/../mat4x4.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/glm/glm/gtx/hash.inl \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/string \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__string \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/ctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/wctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/wctype.h \
-  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/../platform/assets.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/../platform/sdl-wrapper.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_main.h \
@@ -399,6 +380,25 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_system.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_timer.h \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/../third-party/SDL/include/SDL_version.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/string \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__string \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/bit \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/__bits \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cstdio \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/stdio.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/ctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/compat/wctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/wctype.h \
+  /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/../platform/assets.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/../debug/debug.hpp \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/iostream \
   /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/cache/sysroot/include/c++/v1/ios \

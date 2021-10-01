@@ -46,7 +46,7 @@ namespace vrm {
         const glm::mat4 mvp = glm::mat4(
             camera.GetProjectionMatrix() * camera.GetViewMatrix()
         );
-        defaultPipeline.Render(mvp);
+        defaultPipeline.Render(window, mvp);
         SDL_GL_SwapWindow(window);
     }
 }

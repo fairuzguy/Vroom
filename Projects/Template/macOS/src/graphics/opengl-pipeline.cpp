@@ -118,15 +118,17 @@ namespace vrm {
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, screenSurfaceIndexBufferId);
     }
 
-    void OpenGLPipeline::Render(const glm::mat4& mvp) const {
+    void OpenGLPipeline::Render(SDL_Window* window, const glm::mat4& mvp) const {
         glUniformMatrix4fv(uniformLocationMVP, 1, GL_FALSE, &mvp[0][0]);
         GLfloat counter = (SDL_GetTicks())/1000.0;
         glUniform1fv(uniformLocationCounter, 1, &counter);
         GLfloat dt = counter - previousTick;
         previousTick = counter;
+        int currentWindowWidth, currentWindowHeight;
+        SDL_GetWindowSize(window, &currentWindowWidth, &currentWindowHeight);
         GLfloat iResolution[2] = {
-            static_cast<GLfloat>(GetDisplaySize().first),
-            static_cast<GLfloat>(GetDisplaySize().second)
+            static_cast<GLfloat>(currentWindowWidth),
+            static_cast<GLfloat>(currentWindowHeight)
         };
         glUniform2fv(uniformLocationiResolution, 1, iResolution);
         glViewport(0, 0, static_cast<GLsizei>(iResolution[0]), static_cast<GLsizei>(iResolution[1]));

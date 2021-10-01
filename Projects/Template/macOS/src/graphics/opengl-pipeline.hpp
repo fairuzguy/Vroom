@@ -2,13 +2,14 @@
 
 #include "../platform/graphics-wrapper.hpp"
 #include "../platform/glm-wrapper.hpp"
+#include "../platform/sdl-wrapper.hpp"
 #include <string>
 
 namespace vrm {
     class OpenGLPipeline {
     public:
         OpenGLPipeline(const std::string& shaderName);
-        void Render(const glm::mat4& mvp) const;
+        void Render(SDL_Window* window, const glm::mat4& mvp) const;
         ~OpenGLPipeline();
     private:
         const GLuint shaderProgramId;
