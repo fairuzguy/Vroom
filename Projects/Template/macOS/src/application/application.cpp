@@ -24,6 +24,9 @@ namespace vrm {
     bool Application::RunMainLoop() {
         SDL_Event event;
         while (SDL_PollEvent(&event)) {
+            // Need event callback here for main application
+
+            // Closing events
             switch (event.type) {
                 case SDL_QUIT:
                     return false;

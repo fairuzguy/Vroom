@@ -65,7 +65,6 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				11,
 				12,
 				13,
 				14,
@@ -74,7 +73,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -117,14 +117,14 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				11,
 				12,
 				13,
 				14,
@@ -133,15 +133,16 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				21,
-				22
+				22,
+				23
 			]
 		}
 	],
@@ -175,6 +176,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/logic/event.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
