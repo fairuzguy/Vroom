@@ -1,16 +1,14 @@
 # ninja log v5
-19	5275	1633068640039491064	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o	2c18fbd32fb3e36
-1	144	1633131810631754976	build.ninja	a0083ec060c2be70
-0	9	0	clean	ca91ab860e8b0f7a
-25	3298	1632870588219980614	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o	dd859efd417fcfd4
-5275	6243	1633068641016308805	../out/Template	6d9373ba9195aa42
-11	1414	1632870586356589917	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o	6d538999bf1c843
-19	4770	1633068639527402646	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o	bb8329ed31f8ba50
-1494	2888	1632870587815356791	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o	3b7734d8b89df2a
-60	14423	1632878362916511863	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o	9c6032da7486eb6e
-21	3126	1632870588066282963	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	3be9be174832c43c
-18	3919	1632870588854423578	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o	b72280e4bc01507d
-18	4836	1633068639597039455	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o	dc590fe8ed659b73
 1415	1494	1632870586441879364	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o	eb95f9f2fe6aeb43
+18	4836	1633068639597039455	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o	dc590fe8ed659b73
+18	3919	1632870588854423578	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o	b72280e4bc01507d
+21	3126	1632870588066282963	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o	3be9be174832c43c
+60	14423	1632878362916511863	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o	9c6032da7486eb6e
+1494	2888	1632870587815356791	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o	3b7734d8b89df2a
+19	4770	1633068639527402646	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o	bb8329ed31f8ba50
 254	6389	1633132958108891396	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o	6d538999bf1c843
 6390	9181	1633132961064636649	../out/Template	6d9373ba9195aa42
+25	3298	1632870588219980614	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o	dd859efd417fcfd4
+0	9	0	clean	ca91ab860e8b0f7a
+1	144	1633249995613444056	build.ninja	a0083ec060c2be70
+19	5275	1633068640039491064	CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o	2c18fbd32fb3e36

@@ -26,8 +26,7 @@ namespace vrm {
             if (callbacks.find(functionPointer) == callbacks.end()) {
                 return;
             }
-            std::vector<std::function<ReturnType(ParameterTypes...)>> callbackList = callbacks[functionPointer];
-            if (callbackList.size() > 0) {
+            if (callbacks[functionPointer].size() > 0) {
                 callbacks[functionPointer].pop_back();
             }
         }
