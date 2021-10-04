@@ -24,8 +24,9 @@ namespace vrm {
         SDF* previousComposition = nullptr;
         glm::vec3 position;
         glm::mat3x3 orientation;
-        bool isPrimitive = false;
+        bool isPrimitive = true;
         std::vector<glm::vec3> positionOffsets;
         std::vector<glm::mat3x3> orientationOffsets;
+        std::vector<SDF*> sdfList;
     };
 }
