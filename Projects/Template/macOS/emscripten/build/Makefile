@@ -201,6 +201,54 @@ Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-appli
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
 
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.o
+
+# target to build an object file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.i: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.i
+
+# target to preprocess a source file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i
+
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.s: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.s
+
+# target to generate assembly for a file
+Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Template.dir/build.make CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s
+.PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s
+
 Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o: Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o
 .PHONY : Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o
 
@@ -387,6 +435,12 @@ help:
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.s"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.o"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.i"
+	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.s"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.o"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.i"
 	@echo "... Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.s"

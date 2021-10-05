@@ -114,11 +114,41 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.s
 
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp
+
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp > CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.i
+
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.s
+
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o: CMakeFiles/Template.dir/flags.make
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp
+
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp > CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.i
+
+CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s"
+	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.s
+
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o: CMakeFiles/Template.dir/flags.make
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.i: cmake_force
@@ -133,7 +163,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.i: cmake_force
@@ -148,7 +178,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.i: cmake_force
@@ -163,7 +193,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.i: cmake_force
@@ -178,7 +208,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.i: cmake_force
@@ -193,7 +223,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.i: cmake_force
@@ -208,7 +238,7 @@ CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o: CMakeFiles/Template.dir/includes_CXX.rsp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o: /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o: CMakeFiles/Template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o"
 	/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/third-party/emscripten/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o -MF CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o.d -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp
 
 CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.i: cmake_force
@@ -224,6 +254,8 @@ Template_OBJECTS = \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o" \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o" \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o" \
+"CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o" \
+"CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o" \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o" \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o" \
 "CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o" \
@@ -238,6 +270,8 @@ Template_EXTERNAL_OBJECTS =
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o
+../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o
+../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o
 ../out/Template.js: CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o
@@ -248,7 +282,7 @@ Template_EXTERNAL_OBJECTS =
 ../out/Template.js: CMakeFiles/Template.dir/build.make
 ../out/Template.js: CMakeFiles/Template.dir/objects1.rsp
 ../out/Template.js: CMakeFiles/Template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../out/Template.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../out/Template.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Template.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/emscripten && ./cmake-post-build.sh
 
