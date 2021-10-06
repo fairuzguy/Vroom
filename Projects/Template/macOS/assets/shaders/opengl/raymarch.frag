@@ -281,5 +281,5 @@ float GetLight(vec3 origin) {
     float ao = AmbientOcclusion(origin + normal*SHADOW_SURF*5.0, normal);
     grayscale += clamp(ao, 0.0, 1.0-diffuse);
 
-    return grayscale; // will expand to other colours later
+    return grayscale; // will expand to other colours later 
 }
