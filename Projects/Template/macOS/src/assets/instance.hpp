@@ -11,7 +11,7 @@ namespace vrm {
         Instance* FindFirstChild(std::string childName);
         void SetParent(Instance* newParent);
         Instance* GetParent();
-        void Destroy();
+        virtual void Destroy();
         Event<void, Instance*> ChildAdded;
         Event<void> ChildRemoved;
         std::string name = "";

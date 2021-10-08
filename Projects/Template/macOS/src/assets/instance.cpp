@@ -12,6 +12,7 @@ namespace vrm {
                 return child;
             }
         }
+        return nullptr;
     }
 
     void Instance::SetParent(Instance* newParent) {
