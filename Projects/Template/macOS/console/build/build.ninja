@@ -100,6 +100,13 @@ build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macO
   OBJECT_DIR = CMakeFiles/Template.dir
   OBJECT_FILE_DIR = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets
 
+build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/folder.cpp.o: CXX_COMPILER__Template_Debug /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/folder.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/folder.cpp.o.d
+  FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+  INCLUDES = -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm
+  OBJECT_DIR = CMakeFiles/Template.dir
+  OBJECT_FILE_DIR = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets
+
 build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/instance.cpp.o: CXX_COMPILER__Template_Debug /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/instance.cpp || cmake_object_order_depends_target_Template
   DEP_FILE = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/instance.cpp.o.d
   FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
@@ -107,8 +114,22 @@ build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macO
   OBJECT_DIR = CMakeFiles/Template.dir
   OBJECT_FILE_DIR = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets
 
+build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/object.cpp.o: CXX_COMPILER__Template_Debug /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/object.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/object.cpp.o.d
+  FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+  INCLUDES = -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm
+  OBJECT_DIR = CMakeFiles/Template.dir
+  OBJECT_FILE_DIR = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets
+
 build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o: CXX_COMPILER__Template_Debug /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp || cmake_object_order_depends_target_Template
   DEP_FILE = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o.d
+  FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+  INCLUDES = -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm
+  OBJECT_DIR = CMakeFiles/Template.dir
+  OBJECT_FILE_DIR = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets
+
+build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/workspace.cpp.o: CXX_COMPILER__Template_Debug /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/workspace.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/workspace.cpp.o.d
   FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
   INCLUDES = -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm
   OBJECT_DIR = CMakeFiles/Template.dir
@@ -178,7 +199,7 @@ build CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macO
 #############################################
 # Link the executable ../out/Template
 
-build ../out/Template: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/instance.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/world-root.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o
+build ../out/Template: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/application.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/engine.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/application/opengl-application.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/core-sdfs.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/folder.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/instance.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/object.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/sdf.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/workspace.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/assets/world-root.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/debug/debug.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/camera.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/graphics/opengl-pipeline.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/main.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/platform.cpp.o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o
   FLAGS = -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
   LINK_FLAGS = -F../Frameworks -framework SDL2 -framework OpenGL
   OBJECT_DIR = CMakeFiles/Template.dir

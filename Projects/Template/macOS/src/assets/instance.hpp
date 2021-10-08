@@ -15,7 +15,7 @@ namespace vrm {
         Event<void, Instance*> ChildAdded;
         Event<void> ChildRemoved;
         std::string name = "";
-        ~Instance();
+        virtual ~Instance();
     private:
         Instance* parent;
         std::vector<Instance*> children;
