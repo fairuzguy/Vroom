@@ -4,6 +4,7 @@
 
 #include "../platform/sdl-wrapper.hpp"
 #include "application.hpp"
+#include <functional>
 
 namespace vrm {
     // clock timing
@@ -18,6 +19,10 @@ namespace vrm {
 
     void Application::StartApplication() {
         worldRoot = new WorldRoot;
+        worldRoot->name = "WorldRoot";
+        Workspace* mainWorkspace = new Workspace;
+        mainWorkspace->name = "workspace";
+        mainWorkspace->SetParent(static_cast<Instance*>(worldRoot));
         ProjectMain(worldRoot);
 
 #ifdef __EMSCRIPTEN__

@@ -108,6 +108,10 @@ namespace vrm {
         uniformLocationMVP(glGetUniformLocation(shaderProgramId, "mvp")),
         uniformLocationCounter(glGetUniformLocation(shaderProgramId, "counter")),
         uniformLocationiResolution(glGetUniformLocation(shaderProgramId, "iResolution")),
+        uniformLocationSDFCoreData(glGetUniformLocation(shaderProgramId, "SDFCoreData")),
+        uniformLocationSDFRenderData(glGetUniformLocation(shaderProgramId, "SDFRenderData")),
+        uniformLocationExpressionList(glGetUniformLocation(shaderProgramId, "ExpressionList")),
+        uniformLocationSDFList(glGetUniformLocation(shaderProgramId, "SDFList")),
         attributeLocationVertexPosition(glGetAttribLocation(shaderProgramId, "vertexPosition")) {
         glUseProgram(shaderProgramId);
         const GLuint screenSurfaceVertexBufferId = CreateVertexBuffer(screenSurfaceVertices);

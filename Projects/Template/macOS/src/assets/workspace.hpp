@@ -1,6 +1,9 @@
 #pragma once
 
+#include <functional>
+#include <map>
 #include "instance.hpp"
+#include "object.hpp"
 #include "../graphics/camera.hpp"
 
 namespace vrm {
@@ -8,7 +11,7 @@ namespace vrm {
     public:
         Workspace();
         Camera currentCamera;
+        std::map<Object*, bool> renderTargets;
     private:
-        // eventually will add render targets
     };
 }

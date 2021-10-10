@@ -16,6 +16,10 @@ namespace vrm {
         const GLuint uniformLocationMVP;
         const GLuint uniformLocationCounter;
         const GLuint uniformLocationiResolution;
+        const GLuint uniformLocationSDFCoreData;
+        const GLuint uniformLocationSDFRenderData;
+        const GLuint uniformLocationExpressionList;
+        const GLuint uniformLocationSDFList;
         const GLuint attributeLocationVertexPosition;
     };
 }

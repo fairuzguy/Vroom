@@ -16,6 +16,12 @@ namespace vrm {
     }
 
     void Instance::SetParent(Instance* newParent) {
+        if (parent == newParent) {
+            return;
+        }
+        if (parent != nullptr) {
+            parent->ChildRemoved.Fire(this);
+        }
         parent = newParent;
         newParent->children.push_back(this);
         newParent->ChildAdded.Fire(this);
@@ -37,7 +43,7 @@ namespace vrm {
                 break;
             }
         }
-        parent->ChildRemoved.Fire();
+        parent->ChildRemoved.Fire(this);
     }
 
     Instance::~Instance() {

@@ -13,11 +13,11 @@ namespace vrm {
         Instance* GetParent();
         virtual void Destroy();
         Event<void, Instance*> ChildAdded;
-        Event<void> ChildRemoved;
+        Event<void, Instance*> ChildRemoved;
         std::string name = "";
         virtual ~Instance();
     private:
-        Instance* parent;
+        Instance* parent = nullptr;
         std::vector<Instance*> children;
     };
 }

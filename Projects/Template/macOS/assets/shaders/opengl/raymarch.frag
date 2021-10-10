@@ -8,7 +8,7 @@ uniform vec2 iResolution;
 uniform mat4 SDFCoreData[100]; // position, orientation, vec4(Refl, Transp, IoR, something else?)
 uniform mat4 SDFRenderData[100]; // property data (ex. SphereSDF has radius) plus colour/texture info
 uniform vec4 ExpressionList[100]; // first vec4 contains meta data
-uniform int SDFList[100]; // list of SDFs to render
+uniform int SDFList[100]; // list of SDFs to render (enum data)
 
 // Constants
 const int MAX_SDF_COUNT = 100;
