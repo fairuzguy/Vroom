@@ -1,7 +1,6 @@
 #pragma once
 
 #include "../platform/glm-wrapper.hpp"
-#include "../platform/glm-wrapper.hpp"
 #include <vector>
 
 namespace vrm {

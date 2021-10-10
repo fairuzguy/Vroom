@@ -102,8 +102,6 @@ namespace vrm {
         glm::vec3(3.0f, -1.0f, 0.0f)
     };
     const std::vector<uint32_t> screenSurfaceIndices = {2, 1, 0};
-    const float START_TIME = SDL_GetPerformanceCounter();
-    GLfloat previousTick = 0;
 
     OpenGLPipeline::OpenGLPipeline(const std::string& shaderName) : 
         shaderProgramId(CreateShaderProgram(shaderName)),
@@ -118,12 +116,10 @@ namespace vrm {
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, screenSurfaceIndexBufferId);
     }
 
-    void OpenGLPipeline::Render(SDL_Window* window, const glm::mat4& mvp) const {
+    void OpenGLPipeline::Render(SDL_Window* window, const glm::mat4& mvp, float counter) const {
         glUniformMatrix4fv(uniformLocationMVP, 1, GL_FALSE, &mvp[0][0]);
-        GLfloat counter = (SDL_GetTicks())/1000.0;
         glUniform1fv(uniformLocationCounter, 1, &counter);
-        GLfloat dt = counter - previousTick;
-        previousTick = counter;
+
         int currentWindowWidth, currentWindowHeight;
         SDL_GetWindowSize(window, &currentWindowWidth, &currentWindowHeight);
         GLfloat iResolution[2] = {

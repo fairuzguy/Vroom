@@ -6,6 +6,10 @@
 #include "application.hpp"
 
 namespace vrm {
+    // clock timing
+    float previousTick = 0;
+    const float START_TIME = SDL_GetPerformanceCounter();
+
 #ifdef __EMSCRIPTEN__
     void EmscriptenMainLoop(Application* application) {
         application->RunMainLoop();
@@ -13,6 +17,9 @@ namespace vrm {
 #endif
 
     void Application::StartApplication() {
+        worldRoot = new WorldRoot;
+        ProjectMain(worldRoot);
+
 #ifdef __EMSCRIPTEN__
         emscripten_set_main_loop_arg((em_arg_callback_func) EmscriptenMainLoop, this, 60, 1);
 #else
@@ -40,7 +47,12 @@ namespace vrm {
                     break;
             }
         }
-        Render();
+        RunServiceContainer RunService = worldRoot->RunService;
+        float counter = (SDL_GetTicks())/1000.0;
+        float dt = counter - previousTick;
+        previousTick = counter;
+        RunService.RenderStepped.Fire(dt);
+        Render(counter);
         return true;
     }
 }

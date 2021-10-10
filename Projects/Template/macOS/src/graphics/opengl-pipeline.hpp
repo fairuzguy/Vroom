@@ -9,7 +9,7 @@ namespace vrm {
     class OpenGLPipeline {
     public:
         OpenGLPipeline(const std::string& shaderName);
-        void Render(SDL_Window* window, const glm::mat4& mvp) const;
+        void Render(SDL_Window* window, const glm::mat4& mvp, float counter) const;
         ~OpenGLPipeline();
     private:
         const GLuint shaderProgramId;

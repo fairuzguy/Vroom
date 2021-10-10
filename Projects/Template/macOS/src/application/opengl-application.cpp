@@ -39,14 +39,14 @@ namespace vrm {
         SDL_DestroyWindow(window);
     }
 
-    void OpenGLApplication::Render() {
+    void OpenGLApplication::Render(float counter) {
         SDL_GL_MakeCurrent(window, context);
         glClearColor(0.3f, 0.7f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         const glm::mat4 mvp = glm::mat4(
             camera.GetProjectionMatrix() * camera.GetViewMatrix()
         );
-        defaultPipeline.Render(window, mvp);
+        defaultPipeline.Render(window, mvp, counter);
         SDL_GL_SwapWindow(window);
     }
 }

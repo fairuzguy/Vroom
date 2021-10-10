@@ -10,7 +10,7 @@ namespace vrm {
     class OpenGLApplication : public Application {
     public:
         OpenGLApplication();
-        void Render() override;
+        void Render(float counter) override;
         ~OpenGLApplication();
     private:
         SDL_Window* window;

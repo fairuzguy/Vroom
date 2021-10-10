@@ -65,10 +65,6 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				22,
-				23,
-				24,
-				25,
 				26,
 				27,
 				28,
@@ -81,7 +77,12 @@
 				35,
 				36,
 				37,
-				38
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
 			]
 		}
 	],
@@ -135,17 +136,17 @@
 				18,
 				19,
 				20,
-				21
+				21,
+				22,
+				23,
+				24,
+				25
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				22,
-				23,
-				24,
-				25,
 				26,
 				27,
 				28,
@@ -158,15 +159,20 @@
 				35,
 				36,
 				37,
-				38
+				38,
+				39,
+				40,
+				41,
+				42,
+				43
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				39,
-				40
+				44,
+				45
 			]
 		}
 	],
@@ -249,6 +255,11 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/logic/function.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/assets.hpp",
 			"sourceGroupIndex" : 0
 		},
@@ -274,12 +285,27 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/runservice.hpp",
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/project/project.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/tweenservice.hpp",
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/collectionservice-container.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/runservice-container.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/service.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/services/tweenservice-container.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -382,6 +408,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/project/project.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

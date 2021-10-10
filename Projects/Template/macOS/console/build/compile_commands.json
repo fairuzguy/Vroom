@@ -83,5 +83,10 @@
   "directory": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/build",
   "command": "/usr/bin/clang++ -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm  -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp",
   "file": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/platform/sdl-wrapper.cpp"
+},
+{
+  "directory": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/build",
+  "command": "/usr/bin/clang++ -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/SDL/include -I/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/console/../third-party/glm  -std=c++17 -fexceptions -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/Template.dir/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/project/project.cpp.o -c /Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/project/project.cpp",
+  "file": "/Users/elsayed/Desktop/Vroom/Projects/Template/macOS/src/project/project.cpp"
 }
 ]
