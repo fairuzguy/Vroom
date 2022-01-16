@@ -1,6 +1,8 @@
 # Vroom 0.1.0
 
-2D/3D multiplatform graphics engine with signed distance fields. Still in development.
+2D/3D multiplatform graphics engine with signed distance fields. Still in development. 
+
+There is a way to make this work on windows, but I've ommitted it for now to focus on Apple devices since they support function passes to shaders in Metal, which other graphics APIs don't have (yet). This is an important feature for SDFs, I can update the distance function every frame instead of letting the shader figure it out with a million switch statements. You can also build for Android and the web on a mac environment so it's really just windows being left out. So as of now, this repo only has the macOS dev environment to play around with.
 _________
 
 -- 16 January 2022 Status Update --
