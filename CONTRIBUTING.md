@@ -1,0 +1,1 @@
+## For now, there's not much to be able to contribute until the core of the project is fleshed out. Once things become more usable, it will be easier to optimize and add new features from the community if such an interest exists.
