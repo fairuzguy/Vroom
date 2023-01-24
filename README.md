@@ -5,6 +5,12 @@
 There is a way to make this work on windows, but I've ommitted it for now to focus on Apple devices since they support function passes to shaders in Metal, which other graphics APIs don't have (yet). This is an important feature for SDFs, I can update the distance function every frame instead of letting the shader figure it out with a million switch statements. You can also build for Android and the web on a mac environment so it's really just windows being left out. So as of now, this repo only has the macOS dev environment to play around with.
 _________
 
+-- 24 January 2023 Status Update --
+
+I haven't spent much time on this but it's worth mentioning that 1) a few months after learning the Metal API, it isn't any better for SDF rendering than any other graphics backend, and 2) swift is actually pretty nice to use. This project hasn't been touched in almost a year but I was perusing my old projects and figured an update would be nice to leave here.
+
+_________
+
 -- 20 January 2022 Status Update --
 
 SDL is being too buggy - problems with building, compiling, linking, and not well-documented. So it looks like in order to use Metal properly (and since we're only going to use Metal given the functionality it has, until the other APIs provide a similar feature), it's best to write a native engine for Metal in Swift. I've yet to learn Swift but at least the work is straightforward rather than what SDL is throwing at us. Cross-platform dream has ended, native apps here we come. I'm worried about the Android beast when it will eventually reach us, but for now it's just iOS/macOS.
